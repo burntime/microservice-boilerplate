@@ -1,0 +1,27 @@
+{
+  "name": "microservice-boilerplate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=development nodemon ./bin/www",
+    "eslint": "eslint src",
+    "start:prod": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "^2.6.9",
+    "express": "^4.15.5",
+    "log4js": "^2.3.12",
+    "morgan": "^1.8.2",
+    "request-promise": "^4.2.2",
+    "throng": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jasmine": "^2.9.1",
+    "nodemon": "^1.12.1"
+  }
+}
