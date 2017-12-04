@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "NODE_ENV=development nodemon ./bin/www",
-    "eslint": "eslint src",
+    "test": "eslint src",
     "start:prod": "node ./bin/www"
   },
   "dependencies": {
